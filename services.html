@@ -4,35 +4,74 @@
         <meta charset="UTF-8">
         <title>Marrebh Makeup</title>
         
-        <link rel="stylesheet" href="styles/services.css">
+        <link rel="stylesheet" href="styles/main.css">
         <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
         <link rel="icon" type="image/png" href="images/marrebh.png"> <!-- favicon -->
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" rel="stylesheet">
+   <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
     </head>
 
     <body>
     
-     <div class="container">
-            <div class="header">
-                <ul>
-                    <li><a class="Contact" href="contact.html">Contact</a></li>
-                    <li><a class="AboutMe" href="about.html">About Me</a></li>
-                    <li><a class="Service" href="services.html">Services</a></li>
-                    <li><a class="Gallery" href="gallery.html">My Work</a></li>
-                    <li><a class="Home" href="main.html">Home</a></li>
-                </ul>
-            </div> <!-- end header -->
-            
+        <div id="services-background"></div>
+        
+        <div class="navbar navbar-expand-lg navbar-light">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavMenu" 
+            aria-controls="myNavMenu" aria-expanded="false" aria-label="Toggle Navigation On.">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="myNavMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">My Work</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="services.html">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacts</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="Q&A.html">Q&A</a>
+                </li>
+            </ul>
+        </div>
 
+</div>
+            <div class="card mt-4">
+            <div class="card-title text-center">
+                    <h2 class="ml-3 mt-2"><strong>Book Now</strong></h2>
+                    <p class="ml-3">Schedule a makeover</p> 
+
+            </div>
             <div class="service">
-                
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=safarimutech%40gmail.com&amp;color=%2329527A&amp;ctz=Africa%2FMaputo" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             </div> <!-- end gallery--> 
 
-
+        </div>
         
-            <div class="footer">
-                Copyright Marrebh Makeup  
-            </div> <!-- end footer-->
-     </div>    <!-- end container -->
+            <div class="ml-auto">
+                <footer>Copyright 2019 - Marrebh Makeup</footer>
+        </div> <!-- end footer-->
+     
     </body>
 </html>
